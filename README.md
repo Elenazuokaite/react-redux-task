@@ -1,8 +1,8 @@
-Live app preview [a link](https://react-redux-task.herokuapp.com/)
+Live App preview [react-redux-task](https://react-redux-task.herokuapp.com/)
 
 In the project directory, you can run:
 
-###`npm install`
+### `npm install`
 Installs all dependencies
 
 ### `npm start`
