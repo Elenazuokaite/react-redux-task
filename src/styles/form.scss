@@ -1,0 +1,54 @@
+.form-wrap {
+  max-width: 600px;
+}
+.input-box {
+  position: relative;
+  width: 60%;
+}
+.btn-box {
+  width: 40%;
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active  {
+    -webkit-box-shadow: 0 0 0 30px white inset !important;
+}
+.md-input {
+  padding: 16px 12px;
+  padding-left: 36px; 
+  border: 2px solid #5a0069;
+  border-radius: 100px;
+  width: 100%;
+  &:focus {
+    border: 2px solid rgb(131, 0, 148);
+    outline: none;
+    }
+    &:focus ~ .md-label, &:valid ~ .md-label {
+        top: -10px;
+    font-size: 14px;
+    color: #5a0069;
+    background: #fff;
+    padding: 0 4px;
+    font-weight: 600;
+    }
+}
+
+.md-label {
+    position: absolute;
+    top: 16px;
+    left:32px;
+    transition:0.2s ease all; 
+  -moz-transition:0.2s ease all; 
+  -webkit-transition:0.2s ease all;
+  color: #575757;
+  pointer-events:none;
+}
+
+.error-message {
+  font-size: 12px;
+    color: #E91E63;
+    padding: 4px 12px 0;
+    position: absolute;
+}
+

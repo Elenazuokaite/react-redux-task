@@ -1,0 +1,50 @@
+.btn-solid {
+padding: 16px 12px;
+border-style: solid;
+width: 100%;
+    cursor: pointer;
+    &:disabled {
+        cursor: default;
+    }
+    &:focus {
+        outline: none;
+    }
+}
+
+.btn-round {
+border-radius: 100px;
+}
+
+.btn-purple {    
+    background: #830094;
+    border-color: #830094;    
+    color: #fff;  
+    transition: all, .2s;
+    &:hover {
+        background: #9f03b3;
+    border-color: #9f03b3;  
+    } 
+    &:disabled {
+        background: #5a0069;
+    border-color: #5a0069;
+    color: #bb8cc3;
+    } 
+}
+
+.btn-input-reset {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  font-size: 32px;
+  &:focus {
+    outline: none;
+  }
+}
+
+.btn-size-m {
+    max-width: 200px;
+}
+

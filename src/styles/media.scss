@@ -1,0 +1,25 @@
+@media screen and (max-width: 576px) {
+  .w-sm-100 {
+    width: 100%;
+  }
+  .circle {
+    display: none;
+  }
+}
+@media screen and (max-width: 992px) {
+  .circle {
+    width: 360px;
+    height: 400px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .circle {
+    width: 240px;
+    height: 200px;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .circle {
+    display: none;
+}
+}
